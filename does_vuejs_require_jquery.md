@@ -2,10 +2,10 @@ Nếu bạn đã code front-end Javascript được 1 thời gian, chăc có l�
 
 Nhưng đã đến lúc bạn nên bỏ thói quen đó của bạn, **bạn không cần jQuery ở mọi nơi nữa**
 
-Hãy bắt đầu cuộc hành trình của bạn với Vuejs, bạn sẽ cuối cùng sẽ có suy nghĩ "Tôi có thể làm điều đó dễ dàng với jQuery". Điều đó đúng, nhưng mọi chuyện đều có cách khác để giải quyết.
+Hãy bắt đầu cuộc hành trình của bạn với Vuejs, tôi chắc rằng nhiều bạn đều có suy nghĩ "Tôi có thể làm điều đó dễ dàng với jQuery". Điều đó đúng, nhưng mọi chuyện đều có cách khác để giải quyết.
 
 ## Access the DOM
-Chắc hẳn các bạn đều biết cách đơn giản để `hide/show` element với `v-show` nên tôi sẽ không đi theo con đường đó. Nhưng làm thế nào để chúng ta có thể access vào DOM element bây giờ?
+Chắc hẳn các bạn đều biết cách đơn giản để `hide/show` element với `v-show`. Vậy ngoài cách đó ra, bạn sẽ làm thế nào để chúng ta có thể access vào DOM element bây giờ?
 
 Với jQuery bạn có thể sử dụng `var myElement = $('#my-element')`. Phải thừa nhận rằng nó rất `cool`, đó là cách ưu thích để xử lý với CSS selectors. Nhưng với thư viện API của jQuery, bạn không thể sử dụng hết được nó. Điều này khiến website của bạn phải luôn tải thư viện jQuery để bạn có thẻ sử dụng nó ở bất cứ đâu, điều này không cần thiết.
 
