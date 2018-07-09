@@ -1,10 +1,12 @@
 1. Xem file log realtime
+
 Trong nhiều trường hợp khi `debug` chúng ta cần xem nội dung `logs file` realtime, khi đó chúng ta có thể dùng lệnh
 ```
 tail -f /path/to/file/to/watch
 ```
 
 2. Xem cấu trúc cây thư mục bằng lệnh tree
+
 Lệnh `tree` cho phép chúng ta xem cấu trúc và cấp thư mục, kiểu như này:
 ```
 $ tree src
@@ -27,6 +29,7 @@ src
 Với `src` là thứ mục muốn xem
 
 3. Tạo nhiều thư mục cùng lúc
+
 Như ở trên ta thấy có thư mục cha là src, trong đó có các thư mục con tương ứng là `assets, public, store` trong mỗi thư mục con lại có các thư mục con tương ứng là `scss, css, modules`
 
 Để có thể tạo liền một lúc cấu trúc thu mục như vậy ta có thể dùng lệnh
@@ -49,6 +52,7 @@ mkdir: created directory 'src/store/modules'
 ```
 
 4. Trở về thư mục trước đó
+
 Ví dụ ta cd tới một đường dẫn rất là dài, sau đó lại cd đi chỗ khác. Nếu quay lại thư mục trước thì phải gõ rất dài, có thể dùng lệnh
 ```
 $ cd -
@@ -84,6 +88,7 @@ Có một cách khác để tự động thực thi lệnh trên mỗi 2s (mặc
 ```
 
 7. Xem các file log mới nhất
+
 Trong thư mục `/var/log/nginx` có rất nhiều file, có khi cả vài trăm file. Một mẹo ta có thể dùng lệnh ls với các tùy chọn sau để hiển thị file được thay đổi mới nhất nằm ở dưới cùng.
 
 ```
